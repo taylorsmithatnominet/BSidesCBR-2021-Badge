@@ -1,0 +1,30 @@
+convert_ino_to_cpp(
+    ${CMAKE_CURRENT_SOURCE_DIR}/io_coprocessor.ino
+    ${CMAKE_CURRENT_BINARY_DIR}/main.cpp
+)
+add_executable(io_coprocessor
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRRgbLed.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRCapsense.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRSerialBridge.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRSerial.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRIRdA.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRSAO.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CRvBAT.cpp
+    ${CMAKE_CURRENT_BINARY_DIR}/main.cpp
+)
+target_link_libraries(io_coprocessor
+    arduinocore
+    BSidesBadge2020
+    BadgeLog
+    SerialBridge
+    Adafruit_FreeTouch
+    RgbDriver
+    AceRoutine
+    ArduinoLowPower
+    IRBlaster
+    crc32
+)
+target_include_directories(io_coprocessor
+    PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}"
+)
+add_firmware(io_coprocessor)

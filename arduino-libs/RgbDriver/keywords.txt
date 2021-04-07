@@ -1,0 +1,10 @@
+RgbDriver           KEYWORD1
+selectStandbyMode   KEYWORD2
+selectNormalMode    KEYWORD2
+reset               KEYWORD2
+setDeviceConfig     KEYWORD2
+setLedConfig        KEYWORD2
+setBankBrightness   KEYWORD2
+setBankColour       KEYWORD2
+setLedBrightness    KEYWORD2
+setLedColour        KEYWORD2

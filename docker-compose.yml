@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  bsidesbadge2021:
+    build: .
+    volumes:
+      - .:/usr/src/bsidesbadge2021
+    stdin_open: true
+    tty: true

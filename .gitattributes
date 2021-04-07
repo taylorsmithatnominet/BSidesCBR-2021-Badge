@@ -1,0 +1,2 @@
+src/audio/tones.wav filter=lfs diff=lfs merge=lfs -text
+src/audio/tones.h filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,11 @@
+#ifndef _H_GEN_CONFIG_H_
+#define _H_GEN_CONFIG_H_
+
+
+#define GEN_CONFIG_LEVEL_WIDTH (16)
+#define GEN_CONFIG_LEVEL_HEIGHT (31)
+#define GEN_CONFIG_SCREEN_WIDTH (128)
+#define GEN_CONFIG_SCREEN_HEIGHT (288)
+
+
+#endif // _H_GEN_CONFIG_H_

@@ -1,0 +1,54 @@
+# First-party
+[submodule "external/esp32-cmake"]
+	path = external/esp32-cmake
+	url = git@gitlab.com:bsidescbr-2021-badge/build-tools/esp32-cmake.git
+[submodule "external/arduino-cmake"]
+	path = external/arduino-cmake
+	url = git@gitlab.com:bsidescbr-2021-badge/build-tools/arduino-cmake.git
+[submodule "external/arduino-host"]
+	path = external/arduino-host
+	url = git@gitlab.com:bsidescbr-2021-badge/build-tools/arduino-host.git
+# First-party forks
+[submodule "external/esp-mdf"]
+	path = external/esp-mdf
+	url = git@gitlab.com:bsidescbr-2021-badge/external/esp-mdf.git
+[submodule "external/arduino-esp32"]
+	path = external/arduino-esp32
+	url = git@gitlab.com:bsidescbr-2021-badge/external/arduino-esp32.git
+[submodule "arduino-libs/AudioDriver/ESP32_SGTL5000_driver"]
+	path = arduino-libs/AudioDriver/ESP32_SGTL5000_driver
+	url = git@gitlab.com:bsidescbr-2021-badge/external/ESP32_SGTL5000_driver.git
+[submodule "arduino-libs/AudioDriver/dr_libs"]
+	path = arduino-libs/AudioDriver/dr_libs
+	url = git@gitlab.com:bsidescbr-2021-badge/external/dr_libs.git
+[submodule "arduino-libs/Arduino-IRremote"]
+	path = arduino-libs/Arduino-IRremote
+	url = git@gitlab.com:bsidescbr-2021-badge/external/arduino-irremote.git
+# Third-party
+[submodule "external/arduino-samd"]
+	path = external/arduino-samd
+	url = https://github.com/arduino/ArduinoCore-samd.git
+[submodule "arduino-libs/Adafruit-GFX-Library"]
+	path = arduino-libs/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library.git
+[submodule "arduino-libs/Adafruit_EPD"]
+	path = arduino-libs/Adafruit_EPD
+	url = https://github.com/adafruit/Adafruit_EPD.git
+[submodule "arduino-libs/AceRoutine"]
+	path = arduino-libs/AceRoutine
+	url = https://github.com/bxparks/AceRoutine.git
+[submodule "arduino-libs/Adafruit_FreeTouch"]
+	path = arduino-libs/Adafruit_FreeTouch
+	url = https://github.com/jgilbert20/Adafruit_Freetouch.git
+[submodule "arduino-libs/CircularBuffer"]
+	path = arduino-libs/CircularBuffer
+	url = https://github.com/rlogiacco/CircularBuffer.git
+[submodule "arduino-libs/crc32"]
+	path = arduino-libs/crc32
+	url = https://github.com/stbrumme/crc32.git
+[submodule "arduino-libs/ArduinoLowPower"]
+	path = arduino-libs/ArduinoLowPower
+	url = https://github.com/arduino-libraries/ArduinoLowPower.git
+[submodule "arduino-libs/RTCZero"]
+	path = arduino-libs/RTCZero
+	url = https://github.com/arduino-libraries/RTCZero.git

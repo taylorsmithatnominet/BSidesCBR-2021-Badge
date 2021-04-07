@@ -1,0 +1,14 @@
+## Badge artifacts
+# ESP32 artifacts
+out/esp32/badge.bin
+out/esp32/bootloader/bootloader.bin
+out/esp32/partition_table/partition-table.bin
+out/esp32/flasher_args.json
+# SAMD21 artifacts
+out/samd21/io_coprocessor.bin
+# Host artifacts
+out/host/src/badge/badge
+## Supporting tools
+scripts/daemon.py
+requirements/daemon.txt
+external/bossac/bossac

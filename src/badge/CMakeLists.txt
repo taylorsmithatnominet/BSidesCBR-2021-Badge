@@ -1,0 +1,31 @@
+add_executable(badge
+    main.cpp
+)
+target_link_libraries(badge
+    arduinocore
+    BadgeOs
+    serial
+    display
+    bootanimation
+    keyboard
+    serialbridge
+    bluetooth
+    wifiap
+    menu
+    pacman
+    snake
+    tetris
+    sdcard
+    flashman
+    helloworld
+    diagnostics
+    simonsays
+    torch
+    device_info
+    about
+    sketch
+    ${BADGE_APP_LIBS}
+)
+if (ESP32)
+    add_firmware(badge)
+endif()

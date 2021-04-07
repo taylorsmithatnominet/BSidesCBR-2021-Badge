@@ -1,0 +1,13 @@
+*/build/
+/venv/
+/.vscode/
+/build/
+/out/
+/external/arduino-1.8.10/
+/external/xtensa-esp32-elf/
+/external/._bossac-1.7.0
+/external/CMSIS-Atmel/
+/external/CMSIS/
+/external/arm-none-eabi-gcc/
+/external/bossac/
+*.DS_Store
